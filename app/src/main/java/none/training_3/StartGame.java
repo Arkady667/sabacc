@@ -18,3 +18,4 @@ public class StartGame extends Activity {
 
     }
 }
+//zmiany
