@@ -13,47 +13,40 @@
 
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="250dp"
+
         android:layout_height="wrap_content"
         android:text="Nowa Gra"
         android:textSize="40dp"
-        android:id="@+id/button"
+        android:id="@+id/play_button"
         android:textColor="#ff0101"
-        android:layout_above="@+id/button2"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="115dp"
         android:enabled="true"
-        android:background="#0aff0000" />
+        android:background="@color/yellow"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="162dp" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:text="About"
         android:textSize="25dp"
         android:layout_alignParentBottom="true"
-        android:layout_toStartOf="@+id/button"
         android:layout_marginBottom="56dp"
-        android:id="@+id/button3"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/about_button"
         android:textColor="#ff0101"
-        android:background="#0bff0000" />
+        android:background="@color/yellow" />
 
-    TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Ekran główny"
-        android:textSize="30dp"
-        android:id="@+id/textView"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
 
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:text="Rules"
-        android:id="@+id/button2"
+        android:id="@+id/rules_button"
         android:textSize="25dp"
-        android:layout_alignTop="@+id/button3"
-        android:layout_toEndOf="@+id/button"
+        android:layout_alignTop="@+id/about_button"
+        android:layout_alignParentRight="true"
         android:textColor="#ff0101"
-        android:background="#09ff0000" />
+        android:background="@color/yellow" />
 </RelativeLayout>

@@ -11,23 +11,23 @@
         android:layout_height="wrap_content"
         android:text="Multiplayer"
         android:textSize="40dp"
-        android:id="@+id/button4"
+        android:id="@+id/multi_player_button"
         android:layout_marginBottom="74dp"
         android:textColor="#ff0101"
-        android:background="#0aff0000"
+        android:background="@color/yellow"
         android:layout_alignParentBottom="true"
-        android:layout_alignLeft="@+id/button5"
-        android:layout_alignStart="@+id/button5" />
+        android:layout_alignLeft="@+id/single_player_button"
+        android:layout_alignStart="@+id/single_player_button" />
 
     <Button
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:textSize="40dp"
         android:text="Singleplayer"
-        android:id="@+id/button5"
+        android:id="@+id/single_player_button"
         android:textColor="#ff0101"
-        android:background="#0aff0000"
-        android:layout_above="@+id/button4"
+        android:background="@color/yellow"
+        android:layout_above="@+id/multi_player_button"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="30dp" />
 </RelativeLayout>
