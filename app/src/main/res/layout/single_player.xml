@@ -21,9 +21,8 @@
                 android:layout_height="fill_parent">
                 <RelativeLayout
                     android:layout_width="wrap_content"
-                    android:layout_centerHorizontal="true"
                     android:id="@+id/relative_with_main_user_card"
-                    android:layout_height="wrap_content">
+                    android:layout_height="fill_parent">
                     <ImageView
                         android:id="@+id/place_to_instert_user_card"
                         android:layout_width="fill_parent"
@@ -49,13 +48,14 @@
                     android:layout_width="wrap_content"
                     android:layout_centerHorizontal="true"
                     android:id="@+id/relative_with_main_computer_card"
-                    android:layout_height="wrap_content">
+                    android:layout_height="fill_parent">
                     <ImageView
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
                         android:id="@+id/place_to_insert_computer_card"
                         android:background="@color/blue_transparent_80"
                         android:layout_margin="10dp"
+                        android:layout_marginBottom="10dp"
                         />
                 </RelativeLayout>
             </RelativeLayout>

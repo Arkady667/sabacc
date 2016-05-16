@@ -12,7 +12,6 @@
     <color name="blue_transparent_80">#804d90fe</color>
     <color name="white_transparent_full">#00FFFFFF</color>
     <color name="black">#000000</color>
-    <color name="yellow">#edd712</color>
     <color name="green_to_higlight">#76ff03</color>
     <color name="green_to_higlight_transparent_70">#7076ff03</color>
 </resources>

@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class StartGame extends Activity {
-    Button singlePlayerButton;
+    Button singlePlayerButton,multiPlayerButton;
     List<OneCardModel> cardsConfigList;
     public static final String DATA = "DATA";
 
@@ -28,6 +28,14 @@ public class StartGame extends Activity {
                 EventBus.getDefault().postSticky(new Message(Message.SEND_CONFIG_LIST, cardsConfigList));
                 Intent startSinglePlayer = new Intent(getApplicationContext(),SinglePlayerMainClass.class);
                 startActivity(startSinglePlayer);
+            }
+        });
+        multiPlayerButton=(Button)findViewById(R.id.multi_player_button);
+        multiPlayerButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent startMultiPlayer = new Intent(getApplicationContext(),TypingNameActivity.class);
+                startActivity(startMultiPlayer);
             }
         });
 
